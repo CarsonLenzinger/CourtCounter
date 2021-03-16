@@ -12,7 +12,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        displayForTeamA(score: 0);
+        displayForTeamA(0);
+    }
+
+    public void addThreeForTeamA(View v){
+    displayForTeamA(3);
+
     }
 
 
@@ -23,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
+
+
 
 
 
