@@ -15,10 +15,34 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(0);
     }
 
+    /**
+     * Adds three points
+     */
+
     public void addThreeForTeamA(View v){
     displayForTeamA(3);
 
     }
+
+    /**
+     * Adds two points
+     */
+
+    public void addTwoForTeamA(View v){
+        displayForTeamA(2);
+
+    }
+
+    /**
+     * Adds 1 point (free throw)
+     */
+
+    public void addFreeThrowForTeamA(View v){
+        displayForTeamA(1);
+
+    }
+
+
 
 
     /**
