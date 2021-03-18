@@ -15,6 +15,13 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(0);
     }
 
+    /*
+     * Declare and Initialize Global Variables here
+     */
+
+    int scoreTeamA = 0;
+
+
     /**
      * Adds three points
      */
