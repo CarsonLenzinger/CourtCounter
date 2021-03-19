@@ -64,8 +64,50 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    /*
+     * Declare and Initialize Global Variables here
+     */
+
+    int scoreTeamB = 0;
+
+    /**
+     * Adds three points for team B
+     */
+
+    public void addThreeForTeamB(View v){
+        scoreTeamB = scoreTeamB + 3;
+        displayForTeamA(scoreTeamB);
+
+    }
+
+    /**
+     * Adds two points for team B
+     */
+
+    public void addTwoForTeamB(View v){
+        scoreTeamB = scoreTeamB + 2;
+        displayForTeamA(scoreTeamB);
+
+    }
+
+    /**
+     * Adds 1 point (free throw) for team B
+     */
+
+    public void addFreeThrowForTeamB(View v){
+        scoreTeamB = scoreTeamB + 1;
+        displayForTeamA(scoreTeamB);
+
+    }
 
 
+    /**
+     * Displays the given score for Team B.
+     */
+    public void displayForTeamB(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
+        scoreView.setText(String.valueOf(score));
+    }
 
 
 
