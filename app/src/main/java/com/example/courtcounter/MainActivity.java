@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * Adds three points
+     * Adds three points for team A
      */
 
     public void addThreeForTeamA(View v){
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Adds two points
+     * Adds two points for team A
      */
 
     public void addTwoForTeamA(View v){
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Adds 1 point (free throw)
+     * Adds 1 point (free throw) for team A
      */
 
     public void addFreeThrowForTeamA(View v){
