@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(0);
     }
 
+    /**
+     * These methods are for team A
+     */
+
     /*
      * Declare and Initialize Global Variables here
      */
@@ -62,6 +66,13 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
+
+
+
+
+    /*
+     * These methods are for team B
+     */
 
 
     /*
