@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds three points for team A
      */
 
-    public void addThreeForTeamA(View v){
+    public void addThreeForTeamA(View v) {
         scoreTeamA = scoreTeamA + 3;
         displayForTeamA(scoreTeamA);
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds two points for team A
      */
 
-    public void addTwoForTeamA(View v){
+    public void addTwoForTeamA(View v) {
         scoreTeamA = scoreTeamA + 2;
         displayForTeamA(scoreTeamA);
 
@@ -50,13 +50,11 @@ public class MainActivity extends AppCompatActivity {
      * Adds 1 point (free throw) for team A
      */
 
-    public void addFreeThrowForTeamA(View v){
+    public void addFreeThrowForTeamA(View v) {
         scoreTeamA = scoreTeamA + 1;
         displayForTeamA(scoreTeamA);
 
     }
-
-
 
 
     /**
@@ -85,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds three points for team B
      */
 
-    public void addThreeForTeamB(View v){
+    public void addThreeForTeamB(View v) {
         scoreTeamB = scoreTeamB + 3;
         displayForTeamB(scoreTeamB);
 
@@ -95,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds two points for team B
      */
 
-    public void addTwoForTeamB(View v){
+    public void addTwoForTeamB(View v) {
         scoreTeamB = scoreTeamB + 2;
         displayForTeamB(scoreTeamB);
 
@@ -105,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
      * Adds 1 point (free throw) for team B
      */
 
-    public void addFreeThrowForTeamB(View v){
+    public void addFreeThrowForTeamB(View v) {
         scoreTeamB = scoreTeamB + 1;
         displayForTeamB(scoreTeamB);
 
@@ -120,13 +118,12 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-    public void resetScore (View v) {
+    public void resetScore(View v) {
         scoreTeamA = 0;
         scoreTeamB = 0;
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
-
 
 
 }
