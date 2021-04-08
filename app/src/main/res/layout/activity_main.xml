@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     android:background="#0000ff">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="395dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -22,7 +22,8 @@
                 android:gravity="center_horizontal"
                 android:padding="14sp"
                 android:text="Team A"
-                android:textColor="#616161" />
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -45,7 +46,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:text="+3 Points"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="18dp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -56,7 +58,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:text="+2 Points"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="18dp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -67,7 +70,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:text="Free Throw"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="18dp" />
         </LinearLayout>
 
         <View
@@ -79,7 +83,7 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="358dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -90,7 +94,8 @@
                 android:gravity="center_horizontal"
                 android:padding="14sp"
                 android:text="Team B"
-                android:textColor="#616161" />
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -113,7 +118,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:text="+3 Points"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="18dp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -124,7 +130,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:text="+2 Points"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="18dp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -135,7 +142,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:text="Free Throw"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="18dp" />
 
         </LinearLayout>
 
